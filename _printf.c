@@ -46,7 +46,7 @@ int _printf(const char * const format, ...)
 				_putchar('%');
 				disp_count++;
 			}
-			else if (format[i + 1] == 'd')
+			else if (format[i + 1] == 'i' || format[i + 1] == 'd')
 			{
 				i++;
 				num = va_arg(args, int);

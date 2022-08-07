@@ -15,7 +15,8 @@ void main(void){
     n = printf("%s%c%c%d\n","dayonh",a,a, 564);
     printf("%s%c%c%i\n","dayonh",a,a, 564);
     printf("%d\n", n);
-    count = _printf("%s%c%c%d\n","dayonh",a,a, 564);
+    count = _printf("%s%c%c%i\n","dayonh",a,a, 564);
+    _printf("%s%c%c%d\n","dayonh",a,a, 564);
     printf("%d\n", count);
     
 }
