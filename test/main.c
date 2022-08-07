@@ -12,11 +12,11 @@ void main(void){
     int n =0;
     double c = 2.7;
     //_printf("Hello %c %c World %c %s %%\n", a, 'b', 'e', "dayo");
-    n = printf("%s%c%c%d\n","dayonh",a,a, 564);
-    printf("%s%c%c%i\n","dayonh",a,a, 564);
+    n = printf("%s%c%c%d\n","dayonh",a,a, -564);
+    printf("%s%c%c%i\n","dayonh",a,a, -564);
     printf("%d\n", n);
-    count = _printf("%s%c%c%i\n","dayonh",a,a, 564);
-    _printf("%s%c%c%d\n","dayonh",a,a, 564);
+    count = _printf("%s%c%c%i\n","dayonh",a,a, -564);
+    _printf("%s%c%c%d\n","dayonh",a,a, -564);
     printf("%d\n", count);
     
 }
